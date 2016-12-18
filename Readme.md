@@ -1,39 +1,39 @@
-# Lquant¼ò½é
+# Lquantï¿½ï¿½ï¿½
 ===================
-1. Ä¿Â¼½á¹¹
+1. Ä¿Â¼ï¿½á¹¹
 -------------------
     .
-    ©¦  main.py                  # Ö÷³ÌÐò
-    ©¦  Readme.md                # ¼ò½é
-    ©¦                           # 
-    ©À©¤Config                    # ÅäÖÃÎÄ¼þÄ¿Â¼
-    ©À©¤Data                      # Tushare¼°Êý¾Ý¿âµÈÎÄ¼þ
-    ©À©¤GUI                       # Í¼ÐÎ½çÃæ
-    ©À©¤Home                      # ÓÃ»§Ä¿Â¼
-    ©¦      IPyhon_NoteBook.py   # Ö´ÐÐ¿ªÆôHello worldÖ®ÂÃ!
-    ©¦                           # 
-    ©À©¤Indicator                 # Ö¸±ê
-    ©À©¤Strategy                  # ²ßÂÔ
-    ©¸©¤Trade                     # ¸÷È¯ÉÌ½»Ò×API
+    ï¿½ï¿½  main.py                  # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    ï¿½ï¿½  Readme.md                # ï¿½ï¿½ï¿½
+    ï¿½ï¿½                           # 
+    ï¿½ï¿½ï¿½ï¿½Config                    # ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Ä¿Â¼
+    ï¿½ï¿½ï¿½ï¿½Data                      # Tushareï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½Ä¼ï¿½
+    ï¿½ï¿½ï¿½ï¿½GUI                       # Í¼ï¿½Î½ï¿½ï¿½ï¿½
+    ï¿½ï¿½ï¿½ï¿½Home                      # ï¿½Ã»ï¿½Ä¿Â¼
+    ï¿½ï¿½      IPyhon_NoteBook.py   # Ö´ï¿½Ð¿ï¿½ï¿½ï¿½Hello worldÖ®ï¿½ï¿½!
+    ï¿½ï¿½                           # 
+    ï¿½ï¿½ï¿½ï¿½Indicator                 # Ö¸ï¿½ï¿½
+    ï¿½ï¿½ï¿½ï¿½Strategy                  # ï¿½ï¿½ï¿½ï¿½
+    ï¿½ï¿½ï¿½ï¿½Trade                     # ï¿½ï¿½È¯ï¿½Ì½ï¿½ï¿½ï¿½API
 
-2. ¼ÓÈëÏîÄ¿, ¾ýÔ¼·ñ?
+2. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿, ï¿½ï¿½Ô¼ï¿½ï¿½?
 -------------------
-###»ñÈ¡Ô´Âë
+###ï¿½ï¿½È¡Ô´ï¿½ï¿½
     git clone https://github.com/fantasy-mark/Lquant.git
 
-###Ìí¼ÓÔ¶³Ì²Ö¿â
+###ï¿½ï¿½ï¿½Ô¶ï¿½Ì²Ö¿ï¿½
     git remote add origin https://github.com/fantasy-mark/Lquant.git
 
-###Ìá½»±¾µØµÄmaster·ÖÖ§µ½Ô¶³Ì·ÖÖ§
+###ï¿½á½»ï¿½ï¿½ï¿½Øµï¿½masterï¿½ï¿½Ö§ï¿½ï¿½Ô¶ï¿½Ì·ï¿½Ö§
     git add -A
-    git commit -m "¸ÉÁËÉ¶?"
+    git commit -m "ï¿½ï¿½ï¿½ï¿½É¶?"
     git push -u origin master
 
-###³·ÏúÎ´pushµÄcommit,»Ö¸´´úÂë
+###ï¿½ï¿½ï¿½ï¿½Î´pushï¿½ï¿½commit,ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½
 	git log
 	git reset --hard commit_id
-###³·ÏúÎ´pushµÄcommit,²»»Ö¸´´úÂë
+###ï¿½ï¿½ï¿½ï¿½Î´pushï¿½ï¿½commit,ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½
 	git reset commit_id
 	
-###[¼òÃ÷git½Ì³Ì](http://www.cnblogs.com/schaepher/p/5561193.html)<br/>
-###[Readme.mdÅÅ°æ](http://mahua.jser.me/)<br/>
+###[ï¿½ï¿½ï¿½ï¿½gitï¿½Ì³ï¿½](http://www.cnblogs.com/schaepher/p/5561193.html)<br/>
+###[Readme.mdï¿½Å°ï¿½](http://mahua.jser.me/)<br/>

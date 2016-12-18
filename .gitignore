@@ -2,10 +2,10 @@
 !.gitignore
 !main.py
 !Readme.md
-!/Config/
-!/Data/
-!/GUI/
+!/Config
+!/Data
+!/GUI
 !/Home/IPyhon_NoteBook.py
-!/Indicator/
-!/Strategy/
-!/Trade/
+!/Indicator
+!/Strategy
+!/Trade

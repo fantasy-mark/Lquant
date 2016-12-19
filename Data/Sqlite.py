@@ -27,7 +27,8 @@ class DB_Sqlite3:
 
     # 插入表项
     def TB_I(self, table, key, value):
-        insert_sql = "INSERT INTO %s (%s) VALUES (?, ?)" % (table, key)
+        insert_sql = "INSERT INTO %s (%s) VALUES (%s)" % \
+                     (table, key,  (r'?,'*len(value))[:-1])
         self.cur.execute(insert_sql, value)
         self.con.commit()
 

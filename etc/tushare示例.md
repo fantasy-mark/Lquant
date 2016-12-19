@@ -1,4 +1,4 @@
-
+[可参考官方文档](http://tushare.waditu.com/trading.html#id2)<br/>
 
 ```python
 # -*- coding: utf-8 -*-

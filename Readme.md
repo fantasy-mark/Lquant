@@ -41,6 +41,11 @@
 ###查看仓库中文件
 	git ls-files
 
+###打标签,用于版本发布
+	git tag
+	git tag -a 0.1_161219_beta commit_id
+	git push origin 0.1_161219_beta
+	
 ###[简明git教程](http://www.cnblogs.com/schaepher/p/5561193.html)<br/>
 ###[Readme.md排版](http://mahua.jser.me/)<br/>
 ###[上传github后乱码](https://my.oschina.net/u/178116/blog/386095)<br/>

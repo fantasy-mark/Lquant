@@ -43,3 +43,4 @@
 
 ###[简明git教程](http://www.cnblogs.com/schaepher/p/5561193.html)<br/>
 ###[Readme.md排版](http://mahua.jser.me/)<br/>
+###[上传github后乱码](https://my.oschina.net/u/178116/blog/386095)<br/>

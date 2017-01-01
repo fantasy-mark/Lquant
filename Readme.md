@@ -47,5 +47,6 @@
 	git push origin 0.1_161219_beta
 	
 ### [简明git教程](http://www.cnblogs.com/schaepher/p/5561193.html)<br/>
+### [分支管理策略](http://www.cnblogs.com/cnblogsfans/p/5075073.html)<br/>
 ### [Readme.md排版](http://mahua.jser.me/)<br/>
 ### [上传github后乱码](https://my.oschina.net/u/178116/blog/386095)<br/>

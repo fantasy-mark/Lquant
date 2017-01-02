@@ -35,12 +35,43 @@
 ### 撤销未push的commit,不恢复代码
 	git reset commit_id
 
+### 强制以本地仓库覆盖远程某分支仓库(已push公开情况)
+```bash
+# 配合上面reset撤销commit来操作
+git push origin branch_name --force
+```
 ### 回滚某提交
     git checkout commit_id
 
 ### 查看仓库中文件
 	git ls-files
 
+### 分支策略（简易版）
+```bash
+# origin/master分支用于版本发布
+# origin/develop分支用于主开发, 若无创建一个
+git branch develop
+git push -u origin develop
+
+# 若已有origin/master, 则直接拉下来
+git pull origin deveplo
+```
+```bash
+# 创建并切换本地临时分支fix-bug, 进行本地开发
+git branch fix-bug
+git checkout fix-bug
+
+git add -A
+git commit -m 'XXX'
+```
+```bash
+# 切换到develop分支, 把fix-bug分支合并进develop分支, push
+git checkout develop
+git merge --no-ff fix-bug
+git push origin develop
+# 本地临时分支用法就可以删除了
+git branch -d some-feature
+```
 ### 打标签,用于版本发布
 	git tag
 	git tag -a 0.1_161219_beta commit_id
